@@ -4,7 +4,12 @@
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "es5",
+      "es2015",
+      "es2016" /* array includes()는 es2016을 추가해야 사용 가능하다*/,
+      "es2017" /* async await은 es2017을 추가해야 사용 가능하다*/,
+      "es2020"
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -20,7 +25,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
